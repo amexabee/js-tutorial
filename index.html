@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" defer></script>
   </head>
   <body>
-    <div id="item" class="items">
-      This is some <span style="display: none">hidden</span> text.
+    <div class="container">
+      <button id="full">full</button>
+      <h1 class="count">
+        <span id="hr">00</span>:<span id="min">00</span>:<span id="sec"
+          >00</span
+        >
+      </h1>
+      <br />
+      <br />
+      <div class="btns">
+        <button id="stop">stop</button>
+        <button id="reset">R</button>
+        <button id="start">start</button>
+      </div>
     </div>
-    <h5>Study List</h5>
-    <ul class="lists">
-      <!--this is comment-->
-      <li class="list">HTML</li>
-      <li class="list">CSS</li>
-      <li class="list">JS</li>
-    </ul>
-    <button>Add</button>
   </body>
+  <script src="timer.js"></script>
 </html>
