@@ -1,2 +1,2 @@
 # js-tutorial
-this tutorials are based on: [JS tutorial](https://amexabee.hashnode.dev/series/javascript-tutorials)
+this tutorials are based on: [this material](https://amexabee.hashnode.dev/series/javascript-tutorials)
